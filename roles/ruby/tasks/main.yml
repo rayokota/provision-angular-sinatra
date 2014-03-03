@@ -1,0 +1,26 @@
+---
+# From http://blog.coolaj86.com/articles/installing-ruby-on-ubuntu-12-04.html
+- name: Install build-essential 
+  apt: pkg=build-essential
+
+- name: Install libsqlite3-dev
+  apt: pkg=libsqlite3-dev
+
+- name: Install Ruby 
+  apt: pkg=ruby1.9.3
+
+- name: Install xslt1-dev 
+  apt: pkg=libxslt1-dev
+
+- name: Install libxml2-dev 
+  apt: pkg=libxml2-dev
+
+- name: Install libyaml-dev 
+  apt: pkg=libyaml-dev
+
+- name: Install cyaml gem 
+  command: gem install cyaml --no-ri --no-rdoc
+
+- name: Install bundler gem 
+  command: gem install bundler --no-ri --no-rdoc
+
