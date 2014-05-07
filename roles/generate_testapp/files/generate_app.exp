@@ -51,4 +51,7 @@ expect "*name*"
 send -- "yourapp\r"
 expect "*mapper*"
 send -- "\r"
+# bower asking for feedback
+expect "*bower*"
+send -- "\r"
 expect eof
