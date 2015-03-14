@@ -1,8 +1,8 @@
-# The Angular-Dropwizard provisioner 
+# The Angular-Sinatra provisioner 
 
-An [Ansible](http://www.ansible.com/home) provisioner for [AngularJS](http://angularjs.org) and [Dropwizard](http://dropwizard.codahale.com).
+An [Ansible](http://www.ansible.com/home) provisioner for [AngularJS](http://angularjs.org) and [Sinatra](http://www.sinatrarb.com/).
 
-This provisioner installs the [Angular-Dropwizard generator](https://github.com/rayokota/generator-angular-dropwizard) and all prerequisites.  Currently it only supports Ubuntu 12.04.
+This provisioner installs the [Angular-Sinatra generator](https://github.com/rayokota/generator-angular-sinatra) and all prerequisites.  Currently it only supports Ubuntu 12.04.
 
 ## Installation
 
